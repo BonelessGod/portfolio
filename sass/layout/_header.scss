@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+    @media (max-width: 650px) {
+        flex-flow: column;
+        height: 15rem;
+    }   
+
+    background-color: $color-primary;
+    color: $color-text1;
+
+    &__photo{
+        width: 8rem;
+        height: 8rem;
+        padding: 1rem;
+        border-radius: 50%;
+        transition: 200ms;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    &__title{
+        text-align: center;
+        justify-content: center;
+    }
+
+    &__navbar{
+        background-color: $color-primary;
+        display: flex;
+        flex-flow: row;
+        ul{
+            width: 100%;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-around;
+            padding: 0;
+        }
+    }
+}

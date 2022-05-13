@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Syncopate:wght@400;700&display=swap');
+
+/*font-family: 'Oswald', sans-serif;
+
+font-family: 'Syncopate', sans-serif;*/
+
+p, a, li {
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+    color: $color-text1;
+}
+
+a {
+    font-weight: 700;
+}
+
+h1, h2 {
+    font-family: 'Syncopate', sans-serif;
+    color: $color-text1;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
