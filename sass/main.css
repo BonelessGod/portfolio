@@ -376,6 +376,20 @@ li {
   background-color: brown;
 }
 
+.reveal {
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.reveal.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .button {
   display: block;
   width: auto;
@@ -392,6 +406,7 @@ li {
   text-decoration: none;
   -webkit-box-shadow: 0rem 0rem 10rem black;
           box-shadow: 0rem 0rem 10rem black;
+  cursor: pointer;
 }
 
 .button:hover {

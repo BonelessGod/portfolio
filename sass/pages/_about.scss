@@ -91,3 +91,14 @@
         }
     }
 }
+
+.reveal {
+    transform-origin: left;
+    transform: scale(0, 1);
+    transition: 1s;
+}
+
+.reveal.active {
+    transform: scale(1);
+}
+
